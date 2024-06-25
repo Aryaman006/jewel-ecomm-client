@@ -26,7 +26,7 @@ export const AuthProvider = ({ children }) => {
 
   const [user,setUser] = useState(auth ? auth.user : null)
   const [token, setToken] = useState(() => (auth ? auth.token : null));
-  const [port] = useState("https://jewel-e-comm.onrender.com");
+  const [port] = useState("https://jewel-e-comm.onrender.com/api/v1");
 
   const [cart, dispatch] = useReducer(cartReducer, [], () => {
     const existingCartItems = localStorage.getItem('cart');
