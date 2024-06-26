@@ -23,11 +23,13 @@
     color: black;
 }
 
-/* CSS for the card flip animation */
+/* Ensure modal container is above everything */
 .modal-container {
     perspective: 1000px;
+    z-index: 4000; /* Adjust as needed */
 }
 
+/* Flip card animation styles */
 .flip-card {
     position: relative;
     width: 100%;
