@@ -57,7 +57,7 @@ const Register = ({ onClose, onSwitch }) => {
 
     return (
         <div className='modal-backdrop'>
-            <div className='modal-card'>
+            <div className='modal-card' style={{marginTop:"100px"}}>
             <button
                     onClick={onClose}
                     className='absolute top-2 right-2'
