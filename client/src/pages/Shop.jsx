@@ -47,17 +47,17 @@ function FilterComponent({ applyFilters }) {
 
   return (
     <div className="drawer" style={{ marginTop: "50px" }}>
-      <input id="filter-drawer" type="checkbox" className="drawer-toggle" checked={drawerOpen} />
+      <input id="my-drawer" type="checkbox" className="drawer-toggle" checked={drawerOpen} />
       <div className="drawer-content">
         {/* Page content here */}
-        <label htmlFor="filter-drawer" className="btn btn-primary drawer-button" onClick={handleDrawerToggle}>
+        <label htmlFor="my-drawer" className="btn btn-primary drawer-button" onClick={handleDrawerToggle}>
           <FaFilter /> Filter
         </label>
       </div>
       <div className="drawer-side" style={{ marginTop: "60px", zIndex: "1" }}>
-        <label htmlFor="filter-drawer" aria-label="close sidebar" className="drawer-overlay" onClick={handleDrawerToggle}></label>
+        <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay" onClick={handleDrawerToggle}></label>
         <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
-          <label htmlFor="filter-drawer" className="btn btn-ghost drawer-button" onClick={handleDrawerToggle}>
+          <label htmlFor="my-drawer" className="btn btn-ghost drawer-button" onClick={handleDrawerToggle}>
             <FaFilter /> Cancel
           </label>
           <button onClick={handleFilterChange} className="btn btn-primary text-white py-2 px-4 mt-4 rounded-md">
