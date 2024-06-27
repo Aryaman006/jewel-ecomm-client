@@ -16,7 +16,7 @@ import AdminDashboard from "./pages/admin/AdminDashboard";
 import Users from "./pages/admin/Users";
 import SingleProductPage from "./pages/singleProductPage";
 import './index.css';
-import 'daisyui/dist/full.css';
+// import 'daisyui/dist/full.css';
 import UserDashboard from "./pages/user/userDashboard";
 import { useAuth } from "./context/auth";
 
