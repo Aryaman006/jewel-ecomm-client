@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useAuth } from '../context/auth';
 import Login from './Login';
 import { FiX } from 'react-icons/fi';
-// import 'daisyui/dist/full.css';
+import 'daisyui/dist/full.css';
 
 const ForgotPassword = ({ onClose, onSwitch }) => {
     const { port } = useAuth();
